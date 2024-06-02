@@ -1,0 +1,26 @@
+name: 'Feature Request'
+description: Suggest a feature for Angular Material Dev websites
+
+body:
+  - type: dropdown
+    id: affected-sites
+    attributes:
+      label: Which website are relevant/related to the feature request?
+      options:
+        - angular-material.dev
+        - themes.angular-material.dev
+      multiple: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
