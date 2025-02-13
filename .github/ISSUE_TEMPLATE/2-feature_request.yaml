@@ -9,6 +9,7 @@ body:
       options:
         - angular-material.dev
         - themes.angular-material.dev
+        - ui.angular-material.dev
       multiple: false
 
   - type: textarea
