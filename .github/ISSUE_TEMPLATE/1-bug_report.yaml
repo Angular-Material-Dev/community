@@ -10,7 +10,7 @@ body:
         - angular-material.dev
         - themes.angular-material.dev
         - ui.angular-material.dev
-        - @ngm-dev/cli
+        - ngm-dev/cli
       multiple: false
     validations:
       required: true
