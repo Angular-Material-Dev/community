@@ -5,11 +5,12 @@ body:
   - type: dropdown
     id: affected-sites
     attributes:
-      label: Which site is the source of the bug?
+      label: Which site/tool is the source of the bug?
       options:
         - angular-material.dev
         - themes.angular-material.dev
         - ui.angular-material.dev
+        - @ngm-dev/cli
       multiple: false
     validations:
       required: true
