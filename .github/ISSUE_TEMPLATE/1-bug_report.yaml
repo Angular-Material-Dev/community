@@ -11,6 +11,7 @@ body:
         - themes.angular-material.dev
         - ui.angular-material.dev
         - ngm-dev/cli
+        - @ngm-dev/mat-expressive
       multiple: false
     validations:
       required: true
